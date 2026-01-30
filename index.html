@@ -5,18 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- For icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"  
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="  
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Justice</title>
     <link rel="stylesheet" href="./legal.css">
 </head>
 
 <body>
     <header>
-        <nav></nav>
-        <section></section>
+        <nav class="py-[50px]">
+            <div class="mx-auto my-0 max-w-[1170px] flex flex-row justify-between items-center">
+                <div>
+                    <img class="mr-0 pr-0" src="./images/logo2.png" alt="">
+                </div>
+                <ul class="flex flex-row justify-between items-center gap-7 text-[#707070]">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="">Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="">Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="">Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
+                </ul>
+                <button
+                    class="text-[18px] text-white font-semibold px-7 py-5 rounded-lg bg-[#B68C5A] cursor-pointer">Free
+                    Consultation</button>
+            </div>
+        </nav>
+
+
+        <section>
+            <div
+                class="max-w-[1170px] bg-[url('./images/banner.png')] bg-cover bg-no-repeat bg-center rounded-lg flex flex-col justify-center items-center mx-auto my-0 px-60 py-24">
+                <h1 class="eb-garamond text-7xl font-extrabold text-white text-center leading-20 mb-6">We Provide
+                    Effective <br> Legal Solutions
+                </h1>
+                <p class="poppins text-[#E7E7E7] text-center lin leading-6 mb-8">There are many variations of passages
+                    of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected
+                    humour.
+                </p>
+                <form>
+                    <input class="rounded-lg bg-white py-5 pr-80 pl-5 mr-6" type="text"
+                        placeholder="Search your services">
+                    <button
+                        class="text-[18px] text-white font-semibold px-10 py-4 rounded-lg bg-[#B68C5A] cursor-pointer">Search
+                    </button>
+                </form>
+            </div>
+        </section>
     </header>
 
+
     <main>
-        <section class="px-96 py-30">
+        <section class="py-30">
 
             <!-- Heading -->
             <div class="max-w-[714px] mx-auto my-0">
